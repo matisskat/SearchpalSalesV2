@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchPal - List Your Tool Where Developers Find It</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SearchPal</div>
+        <div class="nav-buttons">
+            <button class="btn btn-secondary" onclick="window.location.href='submit.html'">Submit a Tool</button>
+            <button class="btn btn-primary" onclick="window.location.href='login.html'">Sign in</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero-section">
+            <h1>List Your Tool Where Developers Find It</h1>
+            <p class="hero-subtitle">Join thousands of tools helping developers build better software</p>
+            
+            <div class="metrics-bar">
+                <div class="metrics-grid">
+                    <div class="metric-item">
+                        <div class="metric-value">1.8M+</div>
+                        <div class="metric-label">Monthly Impressions</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">192k+</div>
+                        <div class="metric-label">Monthly Clicks</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">43 DR+</div>
+                        <div class="metric-label">According to Ahrefs</div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary cta-button" onclick="window.location.href='submit.html'">Submit Your Tool</button>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title">Why List with SearchPal?</h2>
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Reach More Developers</h3>
+                    <p>Get your tool in front of thousands of developers actively looking for solutions.</p>
+                </div>
+                <div class="card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Boost Your Traffic</h3>
+                    <p>Our listings drive qualified traffic directly to your tool's website.</p>
+                </div>
+                <div class="card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Target Your Audience</h3>
+                    <p>Connect with developers who are specifically looking for tools like yours.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <style>
+        .hero-section {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+        }
+
+        .cta-button {
+            font-size: 1.25rem;
+            padding: 1rem 2.5rem;
+            margin-top: 2rem;
+        }
+
+        .features-section {
+            padding: 4rem 0;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 2rem 0;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .cta-button {
+                width: 100%;
+            }
+        }
+    </style>
+</body>
+</html> 
